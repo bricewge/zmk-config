@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: megamind4089
+      url-base: https://github.com/megamind4089
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: megamind4089
+      revision: m60
       import: app/west.yml
   self:
     path: config
