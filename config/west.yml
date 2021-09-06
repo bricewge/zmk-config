@@ -4,9 +4,11 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: megamind4089
       url-base: https://github.com/megamind4089
+    - name: bricewge
+      url-base: https://github.com/bricewge
   projects:
     - name: zmk
-      remote: megamind4089
+      remote: bricewge
       revision: m60
       import: app/west.yml
   self:
