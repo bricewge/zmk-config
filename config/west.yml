@@ -8,8 +8,12 @@ manifest:
       url-base: https://github.com/bricewge
   projects:
     - name: zmk
-      remote: bricewge
-      revision: m60
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
+    # - name: zmk
+    #   remote: bricewge
+    #   revision: m60
+    #   import: app/west.yml
   self:
     path: config
